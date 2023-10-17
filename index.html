@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MATCHING GAME</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="script.js"></script>
+  <h1 class="page-title">MATCHING GAME</h1>
+  <div class="overlay-text visible">
+    Click to Start
+  </div>
+  <div id="game-over-text" class="overlay-text">
+    GAME OVER
+    <span class="overlay-text-small">Click to Restart</span>
+  </div>
+  <div id="victory-text" class="overlay-text">
+    VICTORY
+    <span class="overlay-text-small">Click to Restart</span>
+  </div>
+  <div class="game-container">
+    <div class="game-info-container">
+      <div class="game-info">
+        Time <span id="time-remaining">100</span>
+      </div>
+      <div class="game-info">
+        Flips <span id="flips">0</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="heart" src="https://cdn-icons-png.flaticon.com/128/9730/9730303.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="https://cdn-icons-png.flaticon.com/128/2977/2977327.png"> 
+        <!-- cute octopus -->
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="heart" src="https://cdn-icons-png.flaticon.com/128/9730/9730303.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="https://cdn-icons-png.flaticon.com/128/2977/2977327.png">
+        <!-- cute octopus -->
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+       
+        <img class="heart" src="https://cdn-icons-png.flaticon.com/128/9730/9730303.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="https://cdn-icons-png.flaticon.com/128/7478/7478224.png">
+        <!-- ramen -->
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="heart" src="https://cdn-icons-png.flaticon.com/128/9730/9730303.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="https://cdn-icons-png.flaticon.com/128/7478/7478224.png">
+         <!-- ramen -->
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="heart" src="https://cdn-icons-png.flaticon.com/128/9730/9730303.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="https://cdn-icons-png.flaticon.com/128/2657/2657873.png">
+        <!-- rainbow -->
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="heart" src="https://cdn-icons-png.flaticon.com/128/9730/9730303.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="https://cdn-icons-png.flaticon.com/128/2657/2657873.png">
+         <!-- rainbow -->
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="heart" src="https://cdn-icons-png.flaticon.com/128/9730/9730303.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="https://cdn-icons-png.flaticon.com/128/1680/1680509.png">
+        <!-- egg -->
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="heart" src="https://cdn-icons-png.flaticon.com/128/9730/9730303.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="https://cdn-icons-png.flaticon.com/128/1680/1680509.png">
+        <!-- egg -->
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="heart" src="https://cdn-icons-png.flaticon.com/128/9730/9730303.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="https://cdn-icons-png.flaticon.com/128/9985/9985503.png">
+        <!-- envolpes -->
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="heart" src="https://cdn-icons-png.flaticon.com/128/9730/9730303.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="https://cdn-icons-png.flaticon.com/128/9985/9985503.png">
+         <!-- envolpes -->
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="heart" src="https://cdn-icons-png.flaticon.com/128/9730/9730303.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="https://cdn-icons-png.flaticon.com/128/3198/3198662.png">
+        <!-- ice cream -->
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="heart" src="https://cdn-icons-png.flaticon.com/128/9730/9730303.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="https://cdn-icons-png.flaticon.com/128/3198/3198662.png">
+        <!-- ice cream -->
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="heart" src="https://cdn-icons-png.flaticon.com/128/9730/9730303.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="https://cdn-icons-png.flaticon.com/128/7478/7478191.png">
+        <!-- boba -->
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="heart" src="https://cdn-icons-png.flaticon.com/128/9730/9730303.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="https://cdn-icons-png.flaticon.com/128/7478/7478191.png">
+        <!-- boba -->
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="heart" src="https://cdn-icons-png.flaticon.com/128/9730/9730303.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="https://cdn-icons-png.flaticon.com/128/7478/7478179.png">
+        <!-- sushi -->
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="heart" src="https://cdn-icons-png.flaticon.com/128/9730/9730303.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="https://cdn-icons-png.flaticon.com/128/7478/7478179.png">
+        <!-- sushi -->
+      </div>
+    </div>
+  </div>
+</body>
+ 
+</html>
