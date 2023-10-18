@@ -6,34 +6,37 @@
     box-sizing: border-box;
   }
   
-  /* html {
-    min-height: 100vh;
-    cursor: url("https://raw.githubusercontent.com/WebDevSimplified/Mix-Or-Match/master/Assets/Cursors/Ghost.cur"), auto;
-  } */
-  
   body {
     margin: 0;
-    background: radial-gradient(pink, purple);
+    /* background: radial-gradient( rgb(70, 226, 208), rgb(206, 31, 124)); */
+    background-image: url("https://media2.giphy.com/media/2tMuOCL17ObOPNBdfV/giphy.gif?cid=ecf05e47duv1uio7nfg3sn1rb9y68rko56cybhul1vhk08kl&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+    background-position: center;
+    background-size: cover;
   }
   
   .page-title {
     color: white;
+    outline-color: black;
+    text-shadow: black;
     font-family: kenkee, serif;
-    font-weight: normal;
+    font-weight:bold;
     text-align: center;
     font-size: 6em;
+    margin-bottom: 0px;
+    margin-top: 0px;
   }
   
   .game-info-container {
     grid-column: 1 / -1;
     display: flex;
     justify-content: space-between;
+    margin-top: 5px;
   }
   
   .game-info {
     font-family: kenkee, serif;
     color: white;
-    font-size: 4em;
+    font-size: 3em;
   }
   
   .game-container {
@@ -43,12 +46,13 @@
     margin: 50px;
     justify-content: center;
     perspective: 500px;
+    margin-top: 10px;
   }
   
   .card {
     position: relative;
-    height: 175px;
-    width: 125px;
+    height: 166px;
+    width: 160px;
   }
   
   
@@ -127,7 +131,7 @@
   }
   
   .card-back {
-    background-color: whitesmoke;
+    background-color: rgb(242, 176, 238);
     border-color: #f5f4f3;
   }
   
@@ -139,7 +143,7 @@
   
   .card-value {
     transition: transform 100ms ease-in-out;
-    transform: scale(.9);
+    transform: scale(.6);
   }
   
   .card-front:hover .card-value {

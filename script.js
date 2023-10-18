@@ -4,7 +4,7 @@ class AudioController {
         this.flipSound = new Audio('https://raw.githubusercontent.com/WebDevSimplified/Mix-Or-Match/master/Assets/Audio/flip.wav');
         this.matchSound = new Audio('https://raw.githubusercontent.com/WebDevSimplified/Mix-Or-Match/master/Assets/Audio/match.wav');
         this.victorySound = new Audio('https://raw.githubusercontent.com/WebDevSimplified/Mix-Or-Match/master/Assets/Audio/victory.wav');
-        this.gameOverSound = new Audio('Assets/Audio/gameOver.wav');
+        this.gameOverSound = new Audio('/Users/sage/sei/projects/matching-game/audio/GAME OVER CUTE VOICE - Gaming Sound Effects HD FREE NO Copyright (1).mp3');
         this.bgMusic.volume = 0.5;
         this.bgMusic.loop = true;
     }
