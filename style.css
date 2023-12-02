@@ -16,12 +16,11 @@
   
   .page-title {
     color: white;
-    outline-color: black;
     text-shadow: black;
     font-family: kenkee, serif;
     font-weight:bold;
     text-align: center;
-    font-size: 6em;
+    font-size: 6.5em;
     margin-bottom: 0px;
     margin-top: 0px;
   }
